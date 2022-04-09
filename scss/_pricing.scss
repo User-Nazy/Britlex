@@ -1,0 +1,84 @@
+.pricing {
+  text-align: left;
+}
+.pricing-list {
+  margin-top: 50px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.pricing-list li {
+  border: 1px solid black;
+}
+
+.pricing p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.container2 {
+  width: 240px;
+  height: 45px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 11px;
+
+  p {
+    font-size: 30px;
+    color: #263238;
+    span {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+      color: #546269;
+    }
+  }
+}
+
+.pricing-item1 {
+  img {
+    margin-left: 20px;
+  }
+  h3 {
+    margin-top: 30px;
+  }
+  div {
+    margin-top: 29px;
+  }
+}
+
+.pricing-item2 {
+  img {
+    margin-top: 30px;
+    margin-left: 22px;
+  }
+  h3 {
+    margin: 25px 0 10px 20px;
+  }
+  p {
+    margin-left: 15px;
+  }
+  div {
+    margin-top: 59px;
+    p {
+      margin-left: 45px;
+    }
+  }
+}
+
+.pricing-item3 {
+  img {
+    margin-top: 5px;
+    margin-left: 52px;
+  }
+
+  div {
+    margin-top: 59px;
+  }
+}

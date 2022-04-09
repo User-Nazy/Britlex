@@ -1,0 +1,37 @@
+.contact__container {
+  display: grid;
+  grid-template-columns: 30% 65%;
+  margin-top: 255px;
+
+  &-right {
+    margin: 30px 0 0 160px;
+
+    h2 {
+      text-align: left;
+    }
+
+    p {
+      margin-top: 37px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    input {
+      box-sizing: border-box;
+      border-radius: 10px;
+      width: 450px;
+      height: 80px;
+      margin-top: 52px;
+      border: 1px solid #8f95a5;
+      padding-left: 33px;
+    }
+
+    .btn {
+      padding: 25px 81px 25px 82px;
+      background: #263238;
+      border-radius: 10px;
+      height: 80px;
+      color: #fff;
+    }
+  }
+}
